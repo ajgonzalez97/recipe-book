@@ -3207,6 +3207,135 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Molasses Smoked Pork Belly Burnt Ends",
+  "slug": "molasses-pork-belly-burnt-ends",
+  "category": "Mains",
+  "tags": [
+   "pork",
+   "smoker",
+   "bbq",
+   "game-day",
+   "burnt-ends"
+  ],
+  "description": "Pork belly cubes marinated 24 hours in molasses, smoked at 250°F for about 2 hours, then braised and glazed until sticky.",
+  "source": {
+   "platform": "Instagram",
+   "url": "https://www.instagram.com/reel/DaDfwyETIyU/",
+   "creator_handle": "@cooking_with_fire___",
+   "creator_name": "Miguel Raya"
+  },
+  "servings": 6,
+  "servings_unit": "servings",
+  "times": {
+   "prep_min": 20,
+   "cook": "24 h marinate + ~2 h smoke + ~1 h braise + ~15 min glaze",
+   "cook_min": 195
+  },
+  "macros": null,
+  "equipment": [
+   "Smoker",
+   "Foil pan",
+   "Foil"
+  ],
+  "hero_image": "images/molasses-pork-belly-burnt-ends-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Pork",
+    "items": [
+     {
+      "id": "belly",
+      "qty": 3,
+      "unit": "lb",
+      "name": "skinless pork belly, cut into 1.5 in cubes"
+     },
+     {
+      "id": "molasses",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "molasses (Grandma's), for the marinade"
+     },
+     {
+      "id": "pepper",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "coarse black pepper"
+     }
+    ]
+   },
+   {
+    "name": "Braise & glaze",
+    "items": [
+     {
+      "id": "bbq",
+      "qty": 1,
+      "unit": "cup",
+      "name": "BBQ sauce"
+     },
+     {
+      "id": "molasses2",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "molasses"
+     },
+     {
+      "id": "butter",
+      "qty": 4,
+      "unit": "Tbsp",
+      "name": "butter, cubed"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Cube the pork belly, toss with molasses, and marinate in the fridge for 24 hours.",
+    "ingredients": [
+     "belly",
+     "molasses"
+    ],
+    "timer_min": 1440,
+    "image": "images/molasses-pork-belly-burnt-ends-s1.jpg"
+   },
+   {
+    "text": "Spread on a tray and season with black pepper.",
+    "ingredients": [
+     "pepper"
+    ],
+    "image": "images/molasses-pork-belly-burnt-ends-s2.jpg"
+   },
+   {
+    "text": "Smoke at 250°F for about 2 hours, until a deep caramelized bark forms.",
+    "timer_min": 120,
+    "image": "images/molasses-pork-belly-burnt-ends-s3.jpg"
+   },
+   {
+    "text": "Move to a foil pan. Mix the BBQ sauce with more molasses and pour it over, adding the butter.",
+    "ingredients": [
+     "bbq",
+     "molasses2",
+     "butter"
+    ],
+    "image": "images/molasses-pork-belly-burnt-ends-s4.jpg"
+   },
+   {
+    "text": "Cover with foil and braise on the smoker until fall-apart tender.",
+    "timer_min": 60,
+    "image": "images/molasses-pork-belly-burnt-ends-s5.jpg"
+   },
+   {
+    "text": "Uncover and let the glaze tighten up into a sticky, caramelized finish, then serve.",
+    "timer_min": 15,
+    "image": "images/molasses-pork-belly-burnt-ends-s6.jpg"
+   }
+  ],
+  "storage": "Fridge 3–4 days; reheat covered in the oven.",
+  "notes": "Sponsored by @grandmasmolasses (#ad). The caption says 'Comment recipe and I'll send it to you' and gives no amounts.",
+  "estimates": {
+   "all": "Only 24 h marinate, 250°F and ~2 h smoke come from the source. All quantities, servings, braise/glaze times and the storage advice are estimates.",
+   "braise": "The braise sauce (BBQ sauce + molasses + butter) is inferred from the video and isn't named in the source."
+  }
+ },
+ {
   "title": "Pizza Bombs",
   "slug": "pizza-bombs",
   "category": "Snacks & Apps",
