@@ -2468,6 +2468,174 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Honey BBQ Chuck Roast Burnt Ends",
+  "slug": "honey-bbq-chuck-roast-burnt-ends",
+  "category": "Mains",
+  "tags": [
+   "beef",
+   "smoker",
+   "bbq",
+   "game-day",
+   "burnt-ends"
+  ],
+  "description": "Cubed chuck roast smoked over cherry wood at 250°F until barky, then braised in BBQ sauce, hot honey and butter until sticky and tender.",
+  "source": {
+   "platform": "Instagram",
+   "url": "https://www.instagram.com/reel/DermgORT9I3/",
+   "creator_handle": "@cooking_with_fire___",
+   "creator_name": "Miguel Raya"
+  },
+  "servings": 6,
+  "servings_unit": "servings",
+  "times": {
+   "prep_min": 20,
+   "cook": "~3 h smoke + ~1.5 h braise + ~15 min glaze",
+   "cook_min": 285
+  },
+  "macros": null,
+  "equipment": [
+   "Charcoal smoker (Minion method)",
+   "Cherry wood chunks",
+   "Foil pan",
+   "Foil"
+  ],
+  "hero_image": "images/honey-bbq-chuck-roast-burnt-ends-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Beef",
+    "items": [
+     {
+      "id": "chuck",
+      "qty": 3,
+      "unit": "lb",
+      "name": "chuck roast, cut into 1–1.5 in cubes"
+     },
+     {
+      "id": "binder",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "yellow mustard (binder)"
+     },
+     {
+      "id": "salt",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "coarse salt"
+     },
+     {
+      "id": "pepper",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "coarse black pepper"
+     },
+     {
+      "id": "garlic",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "granulated garlic"
+     }
+    ]
+   },
+   {
+    "name": "Braise & glaze",
+    "items": [
+     {
+      "id": "bbq",
+      "qty": 1,
+      "unit": "cup",
+      "name": "BBQ sauce"
+     },
+     {
+      "id": "honey",
+      "qty": 0.33,
+      "unit": "cup",
+      "name": "hot honey"
+     },
+     {
+      "id": "butter",
+      "qty": 4,
+      "unit": "Tbsp",
+      "name": "butter, cubed"
+     }
+    ]
+   },
+   {
+    "name": "Fire",
+    "items": [
+     {
+      "id": "charcoal",
+      "qty": null,
+      "unit": "",
+      "name": "charcoal + fire starters"
+     },
+     {
+      "id": "wood",
+      "qty": 3,
+      "unit": "",
+      "name": "cherry wood chunks"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Set up the smoker with the Minion method (unlit charcoal topped with lit coals) and cherry wood chunks for a slow, steady burn at 250°F.",
+    "ingredients": [
+     "charcoal",
+     "wood"
+    ],
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s1.jpg"
+   },
+   {
+    "text": "Cube the chuck roast and coat it with a light binder of yellow mustard.",
+    "ingredients": [
+     "chuck",
+     "binder"
+    ],
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s2.jpg"
+   },
+   {
+    "text": "Season with salt, pepper and garlic.",
+    "ingredients": [
+     "salt",
+     "pepper",
+     "garlic"
+    ],
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s3.jpg"
+   },
+   {
+    "text": "Smoke at 250°F until a dark bark develops.",
+    "timer_min": 180,
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s4.jpg"
+   },
+   {
+    "text": "Move to a foil pan and add the BBQ sauce, hot honey and butter.",
+    "ingredients": [
+     "bbq",
+     "honey",
+     "butter"
+    ],
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s5.jpg"
+   },
+   {
+    "text": "Cover with foil and braise until fall-apart tender.",
+    "timer_min": 90,
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s6.jpg"
+   },
+   {
+    "text": "Uncover and let the glaze get sticky and caramelized, then serve.",
+    "timer_min": 15,
+    "image": "images/honey-bbq-chuck-roast-burnt-ends-s7.jpg"
+   }
+  ],
+  "storage": "Fridge 3–4 days; reheat covered in the oven.",
+  "notes": "Sponsored by @truevalue (#TrueValuePartner). The caption and voiceover give no amounts.",
+  "estimates": {
+   "all": "The source gives no amounts or times beyond the 250°F smoke. Every quantity, servings count, smoke/braise/glaze time and the storage advice is an estimate.",
+   "binder": "The mustard binder is seen in the video but not mentioned; it's optional."
+  }
+ },
+ {
   "title": "Easy Honey Lemon Chicken",
   "slug": "honey-lemon-chicken",
   "category": "Mains",
