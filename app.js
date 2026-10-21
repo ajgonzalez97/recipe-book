@@ -42,7 +42,7 @@ function recipe(r){
   const inShop=store.get('shop',[]).includes(r.slug);
   app.innerHTML=`<div class="hero"><img src="${r.hero_image}" alt=""><a class="back" href="#/">← Back</a></div>
   <div class="sheet"><span class="pill">${esc(r.category)}</span><h1 style="margin-top:8px">${esc(r.title)}</h1>
-  <p class="by">from <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.creator_handle)}</a> on ${esc(r.source.platform)}</p>
+  <p class="by">${r.source.url?`from <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.creator_handle)}</a> on ${esc(r.source.platform)}`:`${esc(r.source.platform)} · by <b>${esc(r.source.creator_handle)}</b>`}</p>
   ${r.description?`<p class="desc">${esc(r.description)}</p>`:''}
   <div class="stats"><div class="stat"><b>${t.prep_min?'~'+t.prep_min+'m':'—'}</b><span>Prep</span></div>
   <div class="stat"><b>${t.cook_min?mins(t.cook_min):'—'}</b><span>Cook</span></div>
@@ -50,7 +50,7 @@ function recipe(r){
   ${m?`<div class="macros"><div><b>${m.calories}</b>cal</div><div><b>${m.protein_g}g</b>protein</div><div><b>${m.carbs_g}g</b>carbs</div><div><b>${m.fat_g}g</b>fat</div></div><p class="small" style="margin:6px 2px 0">per ${esc(m.per)}${t.cook?` · cook ${esc(t.cook)}`:''}${t.rest?` · rest ${esc(t.rest)}`:''}</p>`:''}
   <div class="sec"><h2>Ingredients</h2><div class="scaler"><button id="dn" aria-label="fewer">−</button><span>${sv} ${esc(r.servings_unit||'servings')}</span><button id="up" aria-label="more">+</button></div></div>
   ${k!==1?`<p class="small">Scaled ×${+k.toFixed(2)} from ${r.servings}. <a class="link" href="javascript:" id="rs">Reset</a></p>`:''}
-  ${r.ingredient_groups.map(g=>`<div class="grp">${esc(g.name)}</div>${g.items.map(i=>`<button class="ing ${chk[i.id]?'done':''}" data-id="${i.id}"><span class="box">${chk[i.id]?'✓':''}</span>${ingHTML(i,k)}</button>`).join('')}`).join('')}
+  ${r.ingredient_groups.map(g=>`<div class="grp">${esc(g.name)}</div>${g.fixed?'<p class="small" style="margin:0 0 4px">Full batch, not scaled</p>':''}${g.items.map(i=>`<button class="ing ${chk[i.id]?'done':''}" data-id="${i.id}"><span class="box">${chk[i.id]?'✓':''}</span>${ingHTML(i,g.fixed?1:k)}</button>`).join('')}`).join('')}
   ${r.equipment?.length?`<div class="sec"><h2>Equipment</h2></div><div class="box2">${r.equipment.map(esc).join('<br>')}</div>`:''}
   <div class="sec"><h2>Steps</h2></div><ol class="steps">${r.steps.map(s=>`<li>${esc(s.text)}${s.timer_min?` <span class="tm">⏲ ${mins(s.timer_min)}</span>`:''}</li>`).join('')}</ol>
   ${r.storage?`<div class="sec"><h2>Storage</h2></div><div class="box2">${esc(r.storage)}</div>`:''}
@@ -70,13 +70,13 @@ document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==
 const timers={}; // key slug:n -> {end, left, running}
 function cook(r,n){
   lockWake(); const N=r.steps.length; n=Math.min(Math.max(1,n),N); const s=r.steps[n-1], k=store.get('sv.'+r.slug,r.servings)/r.servings;
-  const all=r.ingredient_groups.flatMap(g=>g.items), uses=(s.ingredients||[]).map(id=>all.find(i=>i.id===id)).filter(Boolean);
+  const all=r.ingredient_groups.flatMap(g=>g.items.map(i=>({...i,_f:g.fixed}))), uses=(s.ingredients||[]).map(id=>all.find(i=>i.id===id)).filter(Boolean);
   const key=r.slug+':'+n; if(s.timer_min && !timers[key]) timers[key]={left:s.timer_min*60,running:false,end:0};
   app.innerHTML=`<div class="cook"><div class="bar"><i style="width:${n/N*100}%"></i></div>
    <div class="hd"><span>${esc(r.title)}</span><button id="x">✕ Close</button></div>
    <div class="body" id="body">${s.image?`<img class="ph" src="${s.image}" alt="">`:''}
    <div class="n">Step ${n} of ${N}</div><div class="txt">${esc(s.text)}</div>
-   ${uses.length?`<div class="uses">${uses.map(i=>`<span>${ingHTML(i,k)}</span>`).join('')}</div>`:''}
+   ${uses.length?`<div class="uses">${uses.map(i=>`<span>${ingHTML(i,i._f?1:k)}</span>`).join('')}</div>`:''}
    ${s.timer_min?`<div class="timer" id="tmr"><div class="clock" id="clk"></div><button id="tgo"></button><button class="sec2" id="trs">Reset</button></div>`:''}
    ${n===N?`<p style="color:#cdbfb4;margin-top:20px">${esc(r.storage||'')}</p>`:''}</div>
    <div class="nav"><button id="pv" ${n===1?'disabled':''}>← Back</button><button class="nx" id="nx">${n===N?'Done ✓':'Next →'}</button></div></div>`;
@@ -102,7 +102,7 @@ function shop(){
   sel.map(bySlug).filter(Boolean).forEach(r=>{ const k=store.get('sv.'+r.slug,r.servings)/r.servings;
     r.ingredient_groups.forEach(g=>g.items.forEach(i=>{ const key=(i.name.toLowerCase()+'|'+(i.unit||'').toLowerCase());
       const e=items[key]||(items[key]={name:i.name,unit:i.unit,qty:i.qty==null?null:0,from:new Set()});
-      if(i.qty!=null&&e.qty!=null) e.qty+=i.qty*k; e.from.add(r.title); })); });
+      if(i.qty!=null&&e.qty!=null) e.qty+=i.qty*(g.fixed?1:k); e.from.add(r.title); })); });
   const list=Object.entries(items);
   app.innerHTML=`<div class="pad"><a class="link" href="#/">← Recipes</a><h1 style="font-size:28px;margin-top:10px">Shopping list</h1>
    <p class="small">Pick recipes, then check things off as you shop. Quantities follow each recipe's servings setting.</p>
