@@ -1872,6 +1872,246 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Crockpot Mongolian Beef & Noodles",
+  "slug": "crockpot-mongolian-beef-noodles",
+  "category": "Mains",
+  "tags": [
+   "beef",
+   "slow-cooker",
+   "noodles",
+   "asian",
+   "weeknight"
+  ],
+  "description": "Seared thin-sliced chuck roast slow-cooked in a sweet shoyu, brown sugar and ginger sauce, then tossed with lo mein noodles and green onions.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@406bbq/video/7688873787407797534",
+   "creator_handle": "@406bbq",
+   "creator_name": "406bbq3"
+  },
+  "servings": 4,
+  "servings_unit": "servings",
+  "times": {
+   "prep_min": 20,
+   "cook": "4–5 h low (or 2.5–3.5 h high) + ~25 min to finish",
+   "cook_min": 295
+  },
+  "macros": null,
+  "equipment": [
+   "Slow cooker",
+   "Large skillet",
+   "Whisk"
+  ],
+  "hero_image": "images/crockpot-mongolian-beef-noodles-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Beef",
+    "items": [
+     {
+      "id": "beef",
+      "qty": 2,
+      "unit": "lb",
+      "name": "chuck roast, thinly sliced"
+     },
+     {
+      "id": "spg",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "SPG (salt, pepper, garlic) or favorite seasoning"
+     },
+     {
+      "id": "butter",
+      "qty": 4,
+      "unit": "Tbsp",
+      "name": "butter, for searing"
+     },
+     {
+      "id": "onion",
+      "qty": 1,
+      "unit": "",
+      "name": "yellow onion, sliced"
+     }
+    ]
+   },
+   {
+    "name": "Sauce",
+    "items": [
+     {
+      "id": "broth",
+      "qty": 1,
+      "unit": "cup",
+      "name": "low-sodium beef broth"
+     },
+     {
+      "id": "shoyu",
+      "qty": 1,
+      "unit": "cup",
+      "name": "low-sodium shoyu (soy sauce)"
+     },
+     {
+      "id": "sugar",
+      "qty": 1,
+      "unit": "cup",
+      "name": "brown sugar"
+     },
+     {
+      "id": "garlic",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "minced garlic"
+     },
+     {
+      "id": "ginger",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "grated ginger"
+     },
+     {
+      "id": "sesame",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "sesame oil"
+     },
+     {
+      "id": "vinegar",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "rice vinegar"
+     },
+     {
+      "id": "pepper",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+     }
+    ]
+   },
+   {
+    "name": "Slurry",
+    "items": [
+     {
+      "id": "corn",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "cornstarch"
+     },
+     {
+      "id": "water",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "cold water"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "items": [
+     {
+      "id": "noodles",
+      "qty": 12,
+      "unit": "oz",
+      "name": "precooked lo mein noodles",
+      "note": "Fortune yakisoba"
+     },
+     {
+      "id": "scallion",
+      "qty": 4,
+      "unit": "",
+      "name": "green onions, cut into 1-inch pieces"
+     },
+     {
+      "id": "seeds",
+      "qty": null,
+      "unit": "",
+      "name": "sesame seeds, optional"
+     },
+     {
+      "id": "crisp",
+      "qty": null,
+      "unit": "",
+      "name": "chili crisp oil, optional"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Whisk the broth, shoyu, brown sugar, garlic, ginger, sesame oil, rice vinegar and black pepper. Hold back a splash of broth for deglazing.",
+    "ingredients": [
+     "broth",
+     "shoyu",
+     "sugar",
+     "garlic",
+     "ginger",
+     "sesame",
+     "vinegar",
+     "pepper"
+    ],
+    "image": "images/crockpot-mongolian-beef-noodles-s1.jpg"
+   },
+   {
+    "text": "Season the beef with SPG. Sear in butter over high heat, in small batches, 1–2 minutes per side, just for color.",
+    "ingredients": [
+     "beef",
+     "spg",
+     "butter"
+    ],
+    "image": "images/crockpot-mongolian-beef-noodles-s2.jpg"
+   },
+   {
+    "text": "Layer the sliced onions in the crockpot, then add the beef. Deglaze the skillet with the reserved splash of broth and scrape everything in.",
+    "ingredients": [
+     "onion"
+    ],
+    "image": "images/crockpot-mongolian-beef-noodles-s3.jpg"
+   },
+   {
+    "text": "Pour in the sauce, stir gently, cover and cook on LOW 4–5 hours (or HIGH 2.5–3.5 hours). Check early so the beef stays tender.",
+    "timer_min": 270,
+    "image": "images/crockpot-mongolian-beef-noodles-s4.jpg"
+   },
+   {
+    "text": "Mix the cornstarch and cold water with about 1 cup of the cooking liquid. Stir it in and cook on HIGH 15–20 minutes until thick and glossy.",
+    "ingredients": [
+     "corn",
+     "water"
+    ],
+    "timer_min": 18,
+    "image": "images/crockpot-mongolian-beef-noodles-s5.jpg"
+   },
+   {
+    "text": "Add the separated noodles and green onions, toss, and heat on HIGH 5–10 minutes.",
+    "ingredients": [
+     "noodles",
+     "scallion"
+    ],
+    "timer_min": 8,
+    "image": "images/crockpot-mongolian-beef-noodles-s6.jpg"
+   },
+   {
+    "text": "Finish with sesame seeds and chili crisp if you like. Serve right away; don't leave it on KEEP WARM or the noodles soak up the sauce.",
+    "ingredients": [
+     "seeds",
+     "crisp"
+    ],
+    "image": "images/crockpot-mongolian-beef-noodles-s7.jpg"
+   }
+  ],
+  "storage": "Best served immediately. Leftovers keep 3 days in the fridge, but the noodles absorb the sauce.",
+  "notes": "",
+  "estimates": {
+   "onion": "The sliced onion appears in the video and voiceover but isn't in the caption's ingredient list; 1 onion is an estimate.",
+   "spg": "The SPG seasoning amount isn't given; 1 Tbsp is an estimate.",
+   "scallion": "The caption doesn't give a green onion count; 4 is an estimate.",
+   "servings": "Servings aren't stated; 4 is an estimate.",
+   "slurry": "The caption lists 2 Tbsp cold water and also says to mix the slurry 'with a cup of broth'. Both are included here.",
+   "vinegar": "Rice vinegar is in the ingredient list and voiceover but missing from the caption's step 3; it's added to the sauce here.",
+   "order": "The video mixes the sauce first; the caption sears first. Either order works.",
+   "timers": "Timers use midpoints (4.5 h, 18 min, 8 min).",
+   "storage": "Leftover storage is a general estimate."
+  }
+ },
+ {
   "title": "High Protein Freezer Chicken Tacos",
   "slug": "freezer-chicken-tacos",
   "category": "Snacks & Apps",
