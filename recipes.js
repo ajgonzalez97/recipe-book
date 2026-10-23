@@ -2955,6 +2955,152 @@ window.RECIPES = [
   }
  },
  {
+  "title": "High Protein Mozzarella Pizza Sticks",
+  "slug": "high-protein-mozzarella-pizza-sticks",
+  "category": "Snacks & Apps",
+  "tags": [
+   "high-protein",
+   "air-fryer",
+   "pizza",
+   "cheesy",
+   "two-ingredient-dough"
+  ],
+  "description": "Two-ingredient Greek yogurt dough wrapped around a cheese stick, turkey pepperoni and sauce, then air-fried. 170 cal and 19g protein each.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@tastyshreds/video/7681726969959943438",
+   "creator_handle": "@tastyshreds",
+   "creator_name": "Tasty Shreds"
+  },
+  "servings": 6,
+  "servings_unit": "sticks",
+  "times": {
+   "prep_min": 15,
+   "cook": "5 min air fry",
+   "cook_min": 5
+  },
+  "macros": {
+   "per": "stick",
+   "calories": 170,
+   "protein_g": 19
+  },
+  "equipment": [
+   "Air fryer",
+   "Mixing bowl",
+   "Rolling pin"
+  ],
+  "hero_image": "images/high-protein-mozzarella-pizza-sticks-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Dough (whole batch)",
+    "items": [
+     {
+      "id": "flour",
+      "qty": 100,
+      "unit": "g",
+      "name": "Fit Flour (high-protein flour)"
+     },
+     {
+      "id": "yogurt",
+      "qty": 200,
+      "unit": "g",
+      "name": "nonfat Greek yogurt"
+     }
+    ]
+   },
+   {
+    "name": "Filling (per stick)",
+    "items": [
+     {
+      "id": "sauce",
+      "qty": 10,
+      "unit": "g",
+      "name": "pizza sauce"
+     },
+     {
+      "id": "stick",
+      "qty": 1,
+      "unit": "",
+      "name": "low-fat mozzarella cheese stick"
+     },
+     {
+      "id": "pep",
+      "qty": 10,
+      "unit": "g",
+      "name": "turkey pepperoni"
+     },
+     {
+      "id": "cheese",
+      "qty": 5,
+      "unit": "g",
+      "name": "low-fat shredded cheese"
+     }
+    ]
+   },
+   {
+    "name": "To serve",
+    "items": [
+     {
+      "id": "dip",
+      "qty": null,
+      "unit": "",
+      "name": "marinara and ranch/yogurt dip, optional"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Add the flour and Greek yogurt to a bowl.",
+    "ingredients": [
+     "flour",
+     "yogurt"
+    ],
+    "image": "images/high-protein-mozzarella-pizza-sticks-s1.jpg"
+   },
+   {
+    "text": "Mix and knead into one big dough ball.",
+    "image": "images/high-protein-mozzarella-pizza-sticks-s2.jpg"
+   },
+   {
+    "text": "Divide into pieces and roll each one flat (squaring them off is optional).",
+    "image": "images/high-protein-mozzarella-pizza-sticks-s3.jpg"
+   },
+   {
+    "text": "Top each with the sauce, a cheese stick, turkey pepperoni and shredded cheese.",
+    "ingredients": [
+     "sauce",
+     "stick",
+     "pep",
+     "cheese"
+    ],
+    "image": "images/high-protein-mozzarella-pizza-sticks-s4.jpg"
+   },
+   {
+    "text": "Roll up and seal the edges.",
+    "image": "images/high-protein-mozzarella-pizza-sticks-s5.jpg"
+   },
+   {
+    "text": "Air fry at 375°F for 5 minutes until golden. Serve with dips.",
+    "ingredients": [
+     "dip"
+    ],
+    "timer_min": 5,
+    "image": "images/high-protein-mozzarella-pizza-sticks-s6.jpg"
+   }
+  ],
+  "storage": "Best fresh. Reheat in the air fryer.",
+  "notes": "The caption is just 'High protein pizza sticks'. Amounts come from the on-screen text and voiceover.",
+  "estimates": {
+   "servings": "The stick count isn't stated; 6 is estimated from the dough amount, the 170 cal/stick and the video.",
+   "macros": "Only calories and protein per stick are given; carbs and fat are unknown.",
+   "flour": "'Fit flour' is read as a high-protein flour brand. Regular self-rising flour is a common substitute but will change the macros.",
+   "yogurt": "The on-screen text says nonfat Greek yogurt, but the tub shown in the video looks like FAGE Total 2%.",
+   "filling": "The filling amounts (from on-screen text) are taken as per stick.",
+   "storage": "Storage is a general estimate."
+  }
+ },
+ {
   "title": "Honey BBQ Chuck Roast Burnt Ends",
   "slug": "honey-bbq-chuck-roast-burnt-ends",
   "category": "Mains",

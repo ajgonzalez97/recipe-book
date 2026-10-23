@@ -47,7 +47,7 @@ function recipe(r){
   <div class="stats"><div class="stat"><b>${t.prep_min?'~'+t.prep_min+'m':'—'}</b><span>Prep</span></div>
   <div class="stat"><b>${t.cook_min?mins(t.cook_min):'—'}</b><span>Cook</span></div>
   <div class="stat"><b>${t.bake_min?mins(t.bake_min):(t.rest_min?mins(t.rest_min):'—')}</b><span>${t.bake_min?'Bake':'Rest'}</span></div></div>
-  ${m?`<div class="macros"><div><b>${m.calories}</b>cal</div><div><b>${m.protein_g}g</b>protein</div><div><b>${m.carbs_g}g</b>carbs</div><div><b>${m.fat_g}g</b>fat</div></div><p class="small" style="margin:6px 2px 0">per ${esc(m.per)}${t.cook?` · cook ${esc(t.cook)}`:''}${t.rest?` · rest ${esc(t.rest)}`:''}</p>`:''}
+  ${m?`<div class="macros"><div><b>${m.calories}</b>cal</div><div><b>${m.protein_g}g</b>protein</div><div><b>${m.carbs_g!=null?m.carbs_g+"g":"—"}</b>carbs</div><div><b>${m.fat_g!=null?m.fat_g+"g":"—"}</b>fat</div></div><p class="small" style="margin:6px 2px 0">per ${esc(m.per)}${t.cook?` · cook ${esc(t.cook)}`:''}${t.rest?` · rest ${esc(t.rest)}`:''}</p>`:''}
   <div class="sec"><h2>Ingredients</h2><div class="scaler"><button id="dn" aria-label="fewer">−</button><span>${sv} ${esc(r.servings_unit||'servings')}</span><button id="up" aria-label="more">+</button></div></div>
   ${k!==1?`<p class="small">Scaled ×${+k.toFixed(2)} from ${r.servings}. <a class="link" href="javascript:" id="rs">Reset</a></p>`:''}
   ${r.ingredient_groups.map(g=>`<div class="grp">${esc(g.name)}</div>${g.fixed?'<p class="small" style="margin:0 0 4px">Full batch, not scaled</p>':''}${g.items.map(i=>`<button class="ing ${chk[i.id]?'done':''}" data-id="${i.id}"><span class="box">${chk[i.id]?'✓':''}</span>${ingHTML(i,g.fixed?1:k)}</button>`).join('')}`).join('')}
