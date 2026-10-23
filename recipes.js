@@ -1872,6 +1872,253 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Crockpot Chicken Tikka Masala",
+  "slug": "crockpot-chicken-tikka-masala",
+  "category": "Mains",
+  "tags": [
+   "chicken",
+   "slow-cooker",
+   "indian",
+   "curry",
+   "weeknight"
+  ],
+  "description": "Chicken thighs in a spiced yogurt marinade, slow-cooked in a garlicky tomato curry sauce and finished with heavy cream.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@406bbq/video/7696661122325220639",
+   "creator_handle": "@406bbq",
+   "creator_name": "406bbq3"
+  },
+  "servings": 6,
+  "servings_unit": "servings",
+  "times": {
+   "prep_min": 15,
+   "cook": "30+ min marinate, 4–5 h low (or 2–3 h high) + 15–20 min",
+   "cook_min": 290
+  },
+  "macros": null,
+  "equipment": [
+   "Slow cooker",
+   "Mixing bowl"
+  ],
+  "hero_image": "images/crockpot-chicken-tikka-masala-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Spiced yogurt marinade",
+    "items": [
+     {
+      "id": "chicken",
+      "qty": 2,
+      "unit": "lb",
+      "name": "boneless skinless chicken thighs, in large chunks"
+     },
+     {
+      "id": "yogurt",
+      "qty": 6,
+      "unit": "Tbsp",
+      "name": "plain full-fat yogurt"
+     },
+     {
+      "id": "mcumin",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "ground cumin"
+     },
+     {
+      "id": "mcoriander",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "ground coriander"
+     },
+     {
+      "id": "mgaram",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "garam masala"
+     },
+     {
+      "id": "mpaprika",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "paprika"
+     },
+     {
+      "id": "mchili",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "red chilli powder"
+     },
+     {
+      "id": "msalt",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "salt"
+     },
+     {
+      "id": "mturmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "turmeric"
+     }
+    ]
+   },
+   {
+    "name": "Curry sauce",
+    "items": [
+     {
+      "id": "tomato",
+      "qty": 15,
+      "unit": "oz",
+      "name": "can plain tomato sauce"
+     },
+     {
+      "id": "onion",
+      "qty": 1,
+      "unit": "",
+      "name": "large onion, finely chopped"
+     },
+     {
+      "id": "garlic",
+      "qty": 4,
+      "unit": "Tbsp",
+      "name": "minced garlic"
+     },
+     {
+      "id": "scumin",
+      "qty": 4,
+      "unit": "tsp",
+      "name": "ground cumin"
+     },
+     {
+      "id": "scoriander",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "ground coriander"
+     },
+     {
+      "id": "sgaram",
+      "qty": 2,
+      "unit": "tsp",
+      "name": "garam masala"
+     },
+     {
+      "id": "sturmeric",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "turmeric"
+     },
+     {
+      "id": "schili",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "red chilli powder, or to taste"
+     },
+     {
+      "id": "ssalt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "salt, adjust after cooking"
+     },
+     {
+      "id": "cream",
+      "qty": 200,
+      "unit": "ml",
+      "name": "heavy cream"
+     }
+    ]
+   },
+   {
+    "name": "To serve",
+    "items": [
+     {
+      "id": "cilantro",
+      "qty": null,
+      "unit": "",
+      "name": "chopped cilantro"
+     },
+     {
+      "id": "rice",
+      "qty": null,
+      "unit": "",
+      "name": "basmati rice"
+     },
+     {
+      "id": "naan",
+      "qty": null,
+      "unit": "",
+      "name": "naan"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Mix the yogurt with the marinade spices and salt. Coat the chicken, cover and refrigerate at least 30 minutes, or overnight for more flavor.",
+    "ingredients": [
+     "chicken",
+     "yogurt",
+     "mcumin",
+     "mcoriander",
+     "mgaram",
+     "mpaprika",
+     "mchili",
+     "msalt",
+     "mturmeric"
+    ],
+    "timer_min": 30,
+    "image": "images/crockpot-chicken-tikka-masala-s1.jpg"
+   },
+   {
+    "text": "Add the tomato sauce, onion, garlic and curry sauce spices to the crockpot. Stir in the chicken and all its marinade; no water or broth needed.",
+    "ingredients": [
+     "tomato",
+     "onion",
+     "garlic",
+     "scumin",
+     "scoriander",
+     "sgaram",
+     "sturmeric",
+     "schili",
+     "ssalt"
+    ],
+    "image": "images/crockpot-chicken-tikka-masala-s2.jpg"
+   },
+   {
+    "text": "Cover and cook on LOW 4–5 hours (or HIGH 2–3 hours), checking early. The chicken should be tender and at least 165°F.",
+    "timer_min": 270,
+    "image": "images/crockpot-chicken-tikka-masala-s3.jpg"
+   },
+   {
+    "text": "Stir in the heavy cream and heat gently on LOW for 15–20 minutes. Taste and adjust the salt.",
+    "ingredients": [
+     "cream"
+    ],
+    "timer_min": 18,
+    "image": "images/crockpot-chicken-tikka-masala-s4.jpg"
+   },
+   {
+    "text": "If the sauce needs thickening, remove the chicken and simmer the sauce in a saucepan until it's how you like it. Return the chicken."
+   },
+   {
+    "text": "Serve with basmati rice and naan, and finish with cilantro.",
+    "ingredients": [
+     "cilantro",
+     "rice",
+     "naan"
+    ],
+    "image": "images/crockpot-chicken-tikka-masala-s6.jpg"
+   }
+  ],
+  "storage": "Fridge 3–4 days; reheat gently. Freezes well (without rice).",
+  "notes": "Use ground red chilli powder, not an American chili seasoning blend. Adjust to your heat preference.",
+  "estimates": {
+   "servings": "Servings aren't stated; 6 is an estimate.",
+   "voiceover": "The voiceover lists different sauce spices (2 tsp cumin, 2 tsp paprika, 1 tsp salt) from the caption (4 tsp cumin, no paprika, ½ tsp salt). The caption's written list is used.",
+   "timers": "Timers use midpoints (4.5 h, 18 min); the marinade timer is the 30-min minimum.",
+   "storage": "Storage is a general estimate."
+  }
+ },
+ {
   "title": "Crockpot Mongolian Beef & Noodles",
   "slug": "crockpot-mongolian-beef-noodles",
   "category": "Mains",
