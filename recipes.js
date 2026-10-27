@@ -1186,6 +1186,234 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Chicken Fajita Quesadillas with Fresh Guacamole",
+  "slug": "chicken-fajita-quesadillas-guacamole",
+  "category": "Mains",
+  "tags": [
+   "chicken",
+   "mexican",
+   "griddle",
+   "quesadilla",
+   "family-favorite"
+  ],
+  "description": "Crispy flour tortillas stuffed with taco-seasoned chicken thighs, sautéed peppers and onions and melted cheese, served with fresh guacamole.",
+  "source": {
+   "platform": "Instagram",
+   "url": "https://www.instagram.com/reel/De-HRGgSmbd/",
+   "creator_handle": "@cooking_with_fire___",
+   "creator_name": "Miguel Raya"
+  },
+  "servings": 6,
+  "servings_unit": "quesadillas",
+  "times": {
+   "prep_min": 20,
+   "cook": "~15 min filling + 4–6 min per quesadilla",
+   "cook_min": 25,
+   "rest_min": 2
+  },
+  "macros": null,
+  "equipment": [
+   "Large skillet or griddle",
+   "Mixing bowl"
+  ],
+  "hero_image": "images/chicken-fajita-quesadillas-guacamole-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Chicken fajita filling",
+    "items": [
+     {
+      "id": "chicken",
+      "qty": 2,
+      "unit": "lb",
+      "name": "boneless skinless chicken thighs, chopped"
+     },
+     {
+      "id": "green",
+      "qty": 1,
+      "unit": "",
+      "name": "green bell pepper, sliced"
+     },
+     {
+      "id": "red",
+      "qty": 1,
+      "unit": "",
+      "name": "red bell pepper, sliced"
+     },
+     {
+      "id": "onion",
+      "qty": 1,
+      "unit": "",
+      "name": "medium sweet onion, sliced"
+     },
+     {
+      "id": "taco",
+      "qty": 2.5,
+      "unit": "Tbsp",
+      "name": "taco seasoning",
+      "alt": "2–3 Tbsp"
+     },
+     {
+      "id": "oil",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "olive oil"
+     },
+     {
+      "id": "sp",
+      "qty": null,
+      "unit": "",
+      "name": "salt & black pepper, to taste"
+     }
+    ]
+   },
+   {
+    "name": "Quesadillas",
+    "items": [
+     {
+      "id": "tort",
+      "qty": 6,
+      "unit": "",
+      "name": "large flour tortillas",
+      "alt": "6–8"
+     },
+     {
+      "id": "cheese",
+      "qty": 2.5,
+      "unit": "cups",
+      "name": "shredded Mexican cheese blend",
+      "alt": "2–3 cups"
+     },
+     {
+      "id": "butter",
+      "qty": null,
+      "unit": "",
+      "name": "butter or oil, for cooking"
+     }
+    ]
+   },
+   {
+    "name": "Fresh guacamole",
+    "items": [
+     {
+      "id": "avo",
+      "qty": 3,
+      "unit": "",
+      "name": "ripe avocados"
+     },
+     {
+      "id": "gonion",
+      "qty": 0.5,
+      "unit": "",
+      "name": "medium onion, finely diced"
+     },
+     {
+      "id": "cilantro",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "fresh cilantro, chopped"
+     },
+     {
+      "id": "jal",
+      "qty": 2,
+      "unit": "",
+      "name": "jalapeños, diced"
+     },
+     {
+      "id": "tomato",
+      "qty": 1,
+      "unit": "",
+      "name": "medium tomato, diced"
+     },
+     {
+      "id": "lime",
+      "qty": 2,
+      "unit": "",
+      "name": "limes, juiced"
+     },
+     {
+      "id": "gsp",
+      "qty": null,
+      "unit": "",
+      "name": "salt & black pepper, to taste"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Heat 1 Tbsp of the oil in a skillet over medium-high. Season the chicken with taco seasoning, salt and pepper.",
+    "ingredients": [
+     "chicken",
+     "taco",
+     "sp"
+    ],
+    "image": "images/chicken-fajita-quesadillas-guacamole-s1.jpg"
+   },
+   {
+    "text": "Cook the chicken for 6–8 minutes until cooked through.",
+    "ingredients": [
+     "oil"
+    ],
+    "timer_min": 7,
+    "image": "images/chicken-fajita-quesadillas-guacamole-s2.jpg"
+   },
+   {
+    "text": "Add the rest of the oil, the peppers and the onion. Sauté 5–7 minutes until tender and lightly caramelized. Mix the chicken back in.",
+    "ingredients": [
+     "green",
+     "red",
+     "onion"
+    ],
+    "timer_min": 6,
+    "image": "images/chicken-fajita-quesadillas-guacamole-s3.jpg"
+   },
+   {
+    "text": "Mash the avocados and mix with the onion, cilantro, jalapeños, tomato, lime juice, salt and pepper.",
+    "ingredients": [
+     "avo",
+     "gonion",
+     "cilantro",
+     "jal",
+     "tomato",
+     "lime",
+     "gsp"
+    ],
+    "image": "images/chicken-fajita-quesadillas-guacamole-s4.jpg"
+   },
+   {
+    "text": "Fill each tortilla with cheese, the chicken fajita mix, and more cheese. Fold in half.",
+    "ingredients": [
+     "tort",
+     "cheese"
+    ],
+    "image": "images/chicken-fajita-quesadillas-guacamole-s5.jpg"
+   },
+   {
+    "text": "Cook over medium heat in a little butter or oil, 2–3 minutes per side, until golden and the cheese is melted.",
+    "ingredients": [
+     "butter"
+    ],
+    "timer_min": 5,
+    "image": "images/chicken-fajita-quesadillas-guacamole-s6.jpg"
+   },
+   {
+    "text": "Rest 1–2 minutes, slice into wedges, and serve with the guacamole.",
+    "timer_min": 2,
+    "image": "images/chicken-fajita-quesadillas-guacamole-s7.jpg"
+   }
+  ],
+  "storage": "Best fresh. Store leftover filling separately for 3–4 days; press lime-juice-coated plastic wrap onto the guacamole to slow browning.",
+  "notes": "No voiceover. The recipe comes from the creator's caption.",
+  "estimates": {
+   "ranges": "The caption gives ranges: taco seasoning 2–3 Tbsp (2.5 used), tortillas 6–8 (6 used), cheese 2–3 cups (2.5 used). Servings follow the tortilla count.",
+   "oil": "The caption says olive oil; the on-screen text says avocado oil.",
+   "cheese": "The caption says Mexican cheese blend; the on-screen text says Oaxaca cheese.",
+   "tortillas": "The video uses 'giant burrito tortillas'; the caption says large flour tortillas.",
+   "timers": "Timers use midpoints; the per-quesadilla timer covers both sides.",
+   "storage": "Storage is a general estimate."
+  }
+ },
+ {
   "title": "Cream Cheese Chicken",
   "slug": "cream-cheese-chicken",
   "category": "Mains",
