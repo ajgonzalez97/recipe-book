@@ -601,6 +601,241 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Cajun Fish & Garlic Shrimp with Cheesy Broccoli and Rice",
+  "slug": "cajun-fish-garlic-shrimp-cheesy-broccoli",
+  "category": "Mains",
+  "tags": [
+   "seafood",
+   "fish",
+   "shrimp",
+   "cajun",
+   "weeknight"
+  ],
+  "description": "A golden Cajun-seasoned fish fillet with garlic-butter shrimp, fluffy white rice and broccoli smothered in creamy cheddar sauce.",
+  "source": {
+   "platform": "Pasted by AJ",
+   "url": "",
+   "creator_handle": "original creator unknown",
+   "creator_name": "Unknown"
+  },
+  "servings": 4,
+  "servings_unit": "servings",
+  "times": {
+   "prep_min": 15,
+   "cook": "25 min",
+   "cook_min": 25
+  },
+  "macros": {
+   "per": "serving",
+   "calories": 690
+  },
+  "equipment": [
+   "Large skillet",
+   "Steamer basket or pot",
+   "Small saucepan",
+   "Whisk"
+  ],
+  "hero_image": "images/cajun-fish-garlic-shrimp-cheesy-broccoli-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Fish, shrimp & sides",
+    "items": [
+     {
+      "id": "fish",
+      "qty": 4,
+      "unit": "",
+      "name": "white fish fillets",
+      "note": "tilapia, cod, or catfish"
+     },
+     {
+      "id": "shrimp",
+      "qty": 1,
+      "unit": "lb",
+      "alt": "450 g",
+      "name": "large shrimp, peeled and deveined, tails on"
+     },
+     {
+      "id": "rice",
+      "qty": 2,
+      "unit": "cups",
+      "name": "cooked white rice"
+     },
+     {
+      "id": "broccoli",
+      "qty": 4,
+      "unit": "cups",
+      "name": "broccoli florets"
+     },
+     {
+      "id": "oil",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "olive oil"
+     },
+     {
+      "id": "butter",
+      "qty": 3,
+      "unit": "Tbsp",
+      "name": "butter, divided"
+     },
+     {
+      "id": "garlic",
+      "qty": 4,
+      "unit": "cloves",
+      "name": "garlic, minced"
+     },
+     {
+      "id": "cajun",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "Cajun seasoning"
+     },
+     {
+      "id": "paprika",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+     },
+     {
+      "id": "garlicp",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+     },
+     {
+      "id": "parsley",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "dried parsley"
+     },
+     {
+      "id": "sp",
+      "qty": null,
+      "unit": "",
+      "name": "salt & black pepper, to taste"
+     },
+     {
+      "id": "lemon",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "fresh lemon juice"
+     }
+    ]
+   },
+   {
+    "name": "Cheddar cheese sauce",
+    "items": [
+     {
+      "id": "sbutter",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "butter"
+     },
+     {
+      "id": "flour",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "all-purpose flour"
+     },
+     {
+      "id": "milk",
+      "qty": 0.75,
+      "unit": "cup",
+      "name": "whole milk"
+     },
+     {
+      "id": "cheddar",
+      "qty": 1,
+      "unit": "cup",
+      "name": "freshly shredded cheddar cheese"
+     },
+     {
+      "id": "sgarlicp",
+      "qty": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+     },
+     {
+      "id": "spepper",
+      "qty": null,
+      "unit": "",
+      "name": "pinch of black pepper"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Season the fish: pat the fillets completely dry. Mix the Cajun seasoning, paprika, garlic powder, parsley, salt and pepper. Rub the fish with a little olive oil, then coat generously with the seasoning.",
+    "ingredients": [
+     "fish",
+     "cajun",
+     "paprika",
+     "garlicp",
+     "parsley",
+     "sp"
+    ]
+   },
+   {
+    "text": "Sear: heat 1 Tbsp olive oil and 1 Tbsp butter in a skillet over medium-high. Cook the fish 3–5 minutes per side, depending on thickness, until deeply golden and flaky. Transfer carefully to a plate.",
+    "ingredients": [
+     "oil",
+     "butter"
+    ],
+    "timer_min": 4
+   },
+   {
+    "text": "Shrimp: season with a little Cajun seasoning and black pepper. Add another 1 Tbsp butter to the same skillet and cook 1–2 minutes per side until pink, opaque and lightly caramelized.",
+    "ingredients": [
+     "shrimp"
+    ],
+    "timer_min": 1.5
+   },
+   {
+    "text": "Garlic butter: lower the heat, add the garlic and remaining butter, and cook about 30 seconds. Toss the shrimp through, then finish with lemon juice and parsley.",
+    "ingredients": [
+     "garlic",
+     "lemon"
+    ],
+    "timer_min": 0.5
+   },
+   {
+    "text": "Broccoli: steam 4–5 minutes until vivid green and tender-crisp. Don't overcook it; the florets should hold their shape.",
+    "ingredients": [
+     "broccoli"
+    ],
+    "timer_min": 4.5
+   },
+   {
+    "text": "Cheese sauce: melt 1 Tbsp butter in a small saucepan, whisk in the flour and cook 1 minute. Slowly whisk in the milk and simmer until slightly thickened. Lower the heat and stir in the cheddar, garlic powder and pepper until silky smooth.",
+    "ingredients": [
+     "sbutter",
+     "flour",
+     "milk",
+     "cheddar",
+     "sgarlicp",
+     "spepper"
+    ],
+    "timer_min": 1
+   },
+   {
+    "text": "Get cheesy: arrange the broccoli on the plate and spoon the warm cheddar sauce generously over the florets."
+   },
+   {
+    "text": "Plate: a mound of rice, the fish fillet laid partly over it, the garlic-butter shrimp alongside, and the cheesy broccoli. Spoon any leftover garlic butter over the seafood.",
+    "ingredients": [
+     "rice"
+    ]
+   }
+  ],
+  "storage": "",
+  "notes": "Recipe text pasted by AJ; the original creator is unknown. The photo carries a small watermark that looks like \"Tasty by Shaliya\". That's a photo watermark only, not a confirmed creator.",
+  "estimates": {
+   "timers": "Timers use the middle of each range: fish 4 min per side (3–5), shrimp 1.5 min per side (1–2), broccoli 4.5 min (4–5). The garlic (30 sec) and roux (1 min) timers use the stated times.",
+   "macros": "Only ~690 kcal per serving is given; protein, carbs and fat aren't stated."
+  }
+ },
+ {
   "title": "Cheesesteak Stuffed Bread Boat",
   "slug": "cheesesteak-stuffed-bread-boat",
   "category": "Mains",
@@ -3894,6 +4129,309 @@ window.RECIPES = [
    "tsp": "Caption lists bare 'tsp' amounts; 1 tsp is assumed for each.",
    "timers": "Timers use the air fryer midpoints (28 and 11 min).",
    "prep": "Prep time is an estimate."
+  }
+ },
+ {
+  "title": "Japanese-Style Loco Moco Bowl",
+  "slug": "japanese-style-loco-moco-bowl",
+  "category": "Mains",
+  "tags": [
+   "beef",
+   "bowl",
+   "hawaiian",
+   "japanese",
+   "rice",
+   "weeknight"
+  ],
+  "description": "Juicy hamburger steak over steamed rice with rich mushroom gravy, a fried egg and creamy avocado.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@rionsfood/video/7705512893210578189",
+   "creator_handle": "@rionsfood",
+   "creator_name": "rionsfood"
+  },
+  "servings": 4,
+  "servings_unit": "bowls",
+  "times": {
+   "prep_min": 15,
+   "cook_min": 25,
+   "cook": "25 min"
+  },
+  "macros": null,
+  "equipment": [
+   "Mixing bowl",
+   "Knife and cutting board",
+   "Large frying pan",
+   "Spatula"
+  ],
+  "hero_image": "images/japanese-style-loco-moco-bowl-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Hamburger steak",
+    "items": [
+     {
+      "id": "beef",
+      "qty": 1,
+      "unit": "lb",
+      "name": "ground beef"
+     },
+     {
+      "id": "panko",
+      "qty": 0.25,
+      "unit": "cup",
+      "name": "panko breadcrumbs"
+     },
+     {
+      "id": "milk",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "milk"
+     },
+     {
+      "id": "diced-onion",
+      "qty": 0.5,
+      "unit": "small",
+      "name": "onion, finely diced"
+     },
+     {
+      "id": "parmesan",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "grated Parmesan"
+     },
+     {
+      "id": "tomato",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "tomato paste"
+     },
+     {
+      "id": "steak-worc",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "Worcestershire sauce"
+     },
+     {
+      "id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+     },
+     {
+      "id": "pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+     },
+     {
+      "id": "nutmeg",
+      "qty": 0.25,
+      "unit": "tsp",
+      "name": "nutmeg"
+     },
+     {
+      "id": "msg",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "MSG"
+     },
+     {
+      "id": "oil",
+      "qty": null,
+      "unit": "",
+      "name": "olive oil, for frying (shown in video)"
+     }
+    ]
+   },
+   {
+    "name": "Mushroom gravy",
+    "items": [
+     {
+      "id": "butter",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "butter"
+     },
+     {
+      "id": "sliced-onion",
+      "qty": 0.5,
+      "unit": "",
+      "name": "onion, sliced"
+     },
+     {
+      "id": "mushrooms",
+      "qty": 1,
+      "unit": "cup",
+      "name": "mushrooms, sliced"
+     },
+     {
+      "id": "flour",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "flour"
+     },
+     {
+      "id": "wine",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "red wine"
+     },
+     {
+      "id": "broth",
+      "qty": 1,
+      "unit": "cup",
+      "name": "beef broth"
+     },
+     {
+      "id": "soy",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "soy sauce"
+     },
+     {
+      "id": "ketchup",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "ketchup"
+     },
+     {
+      "id": "gravy-worc",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "Worcestershire sauce"
+     },
+     {
+      "id": "bouillon",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "beef bouillon powder"
+     }
+    ]
+   },
+   {
+    "name": "To serve (amounts estimated)",
+    "items": [
+     {
+      "id": "rice",
+      "qty": 4,
+      "unit": "cups",
+      "name": "steamed white rice (estimated)"
+     },
+     {
+      "id": "eggs",
+      "qty": 4,
+      "unit": "",
+      "name": "fried eggs (estimated)"
+     },
+     {
+      "id": "avocado",
+      "qty": 2,
+      "unit": "",
+      "name": "avocado, sliced (estimated)"
+     },
+     {
+      "id": "chives",
+      "qty": null,
+      "unit": "",
+      "name": "fresh chives, to garnish"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Finely dice the hamburger-steak onion; slice the gravy onion and mushrooms.",
+    "ingredients": [
+     "diced-onion",
+     "sliced-onion",
+     "mushrooms"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s1.jpg"
+   },
+   {
+    "text": "Mix all the hamburger steak ingredients together until combined.",
+    "ingredients": [
+     "beef",
+     "panko",
+     "milk",
+     "diced-onion",
+     "parmesan",
+     "tomato",
+     "steak-worc",
+     "salt",
+     "pepper",
+     "nutmeg",
+     "msg"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s2.jpg"
+   },
+   {
+    "text": "Shape into four thick, palm-sized round patties and place them in the oiled pan.",
+    "ingredients": [
+     "beef"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s3.jpg"
+   },
+   {
+    "text": "Heat olive oil in a large non-stick skillet. Fry the patties until deeply browned, flip, then cover with a glass lid to trap steam. Cook fully through to 160°F (71°C), then remove the patties, leaving the drippings in the pan.",
+    "ingredients": [
+     "beef",
+     "oil"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s4.jpg"
+   },
+   {
+    "text": "In the same pan, melt the butter. Add the sliced onion and mushrooms and cook until caramelized.",
+    "ingredients": [
+     "butter",
+     "sliced-onion",
+     "mushrooms"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s5.jpg"
+   },
+   {
+    "text": "Stir in the flour until combined, then pour in the red wine to deglaze the pan.",
+    "ingredients": [
+     "flour",
+     "wine"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s6.jpg"
+   },
+   {
+    "text": "Add beef broth, soy sauce, ketchup, Worcestershire sauce and beef bouillon powder. Stir and simmer until the gravy is thick and smooth.",
+    "ingredients": [
+     "broth",
+     "soy",
+     "ketchup",
+     "gravy-worc",
+     "bouillon"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s7.jpg"
+   },
+   {
+    "text": "Return the cooked patties to the finished simmering gravy and cover with the lid to soak up the sauce.",
+    "ingredients": [
+     "beef"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s8.jpg"
+   },
+   {
+    "text": "Mound rice in each shallow bowl and add a gravy-coated patty. Spoon over extra mushroom gravy. Fan sliced avocado beside the patty, place a sunny-side up egg on top and finish with finely minced chives.",
+    "ingredients": [
+     "rice",
+     "beef",
+     "eggs",
+     "avocado",
+     "chives"
+    ],
+    "image": "images/japanese-style-loco-moco-bowl-s9.jpg"
+   }
+  ],
+  "storage": "Refrigerate leftovers promptly and use within 3–4 days; store avocado separately. General food-safety guidance, not stated by the creator.",
+  "notes": "Caption recipe supplemented by verified video details: four patties, olive oil for frying, covered cooking, and returning patties to gravy. Four bowls correspond to the four patties shown. Rice, eggs, avocado amounts and times are estimates. Oil and chive quantities are unspecified. Temperature and storage are added food-safety guidance.",
+  "estimates": {
+   "garnish": "Per bowl: about 1 cup cooked rice, 1 fried egg and ½ avocado; chives as desired.",
+   "times": "15 minutes prep and 25 minutes cooking, estimated."
   }
  },
  {
