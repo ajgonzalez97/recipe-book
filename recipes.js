@@ -6250,24 +6250,24 @@ window.RECIPES = [
     "items": [
      {
       "id": "graham",
-      "qty": null,
-      "unit": "",
+      "qty": 9,
+      "unit": "sheets",
       "name": "graham crackers",
-      "note": "enough to cover the bottom of the pan"
+      "note": "about 9 full sheets in a 3x3 grid, plus broken pieces for the edges"
      },
      {
       "id": "mallow",
-      "qty": null,
+      "qty": 16,
       "unit": "",
-      "name": "marshmallows",
-      "note": "enough to cover the dough layer"
+      "name": "large marshmallows",
+      "note": "enough to cover the dough layer, evenly spaced"
      },
      {
       "id": "hershey",
-      "qty": null,
-      "unit": "",
-      "name": "Hershey's chocolate pieces",
-      "note": "for topping"
+      "qty": 1,
+      "unit": "bar",
+      "name": "Hershey's milk chocolate bar, broken into pieces",
+      "note": "about 1–2 bars (1.55 oz each), for topping"
      }
     ]
    }
@@ -6277,7 +6277,7 @@ window.RECIPES = [
     "text": "Preheat the oven to 350°F (175°C). Line a 9x9-inch pan with parchment, leaving overhang on the sides."
    },
    {
-    "text": "Whisk the melted butter, brown sugar and granulated sugar until well combined.",
+    "text": "Pour the melted butter over the brown and granulated sugar and whisk until well combined.",
     "ingredients": [
      "butter",
      "brown",
@@ -6310,14 +6310,14 @@ window.RECIPES = [
     "image": "images/smores-cookie-bars-s5.jpg"
    },
    {
-    "text": "Lay graham crackers in a single layer across the bottom of the pan, breaking them to fit.",
+    "text": "Lay whole graham cracker sheets in a 3x3 grid across the bottom of the pan, filling the edges with broken pieces.",
     "ingredients": [
      "graham"
     ],
     "image": "images/smores-cookie-bars-s6.jpg"
    },
    {
-    "text": "Spread about two-thirds of the cookie dough evenly over the graham crackers.",
+    "text": "Scoop about two-thirds of the cookie dough over the graham crackers and spread it into an even layer.",
     "image": "images/smores-cookie-bars-s7.jpg"
    },
    {
@@ -6328,7 +6328,7 @@ window.RECIPES = [
     "image": "images/smores-cookie-bars-s8.jpg"
    },
    {
-    "text": "Drop small pieces of the remaining dough over the marshmallows — it's fine if some peek through."
+    "text": "Press small flattened pieces of the remaining dough into the gaps between the marshmallows — it's fine if some peek through."
    },
    {
     "text": "Bake about 25 minutes, until the cookie is lightly golden and mostly set.",
@@ -6336,7 +6336,7 @@ window.RECIPES = [
     "image": "images/smores-cookie-bars-s10.jpg"
    },
    {
-    "text": "Right out of the oven, scatter the Hershey's pieces over the top and press them gently into the warm bars.",
+    "text": "Right out of the oven, scatter the Hershey's pieces over the hot bars so they melt from the residual heat — don't bake them.",
     "ingredients": [
      "hershey"
     ],
@@ -6353,7 +6353,7 @@ window.RECIPES = [
    "servings": "Not stated; 9 bars assumed for a 9x9 pan.",
    "prep_min": "Prep time estimated.",
    "metric": "Metric conversions are approximate.",
-   "toppings": "Graham crackers, marshmallows and Hershey's amounts aren't given — use enough to cover each layer, per the blog."
+   "toppings": "Blog and caption give no topping amounts; 9 graham sheets (3x3 grid seen in video), ~16 marshmallows and 1–2 Hershey's bars are estimates from the video."
   }
  },
  {
