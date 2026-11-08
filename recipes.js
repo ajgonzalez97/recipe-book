@@ -6144,6 +6144,219 @@ window.RECIPES = [
   }
  },
  {
+  "title": "S'mores Cookie Bars",
+  "slug": "smores-cookie-bars",
+  "category": "Desserts",
+  "tags": [
+   "dessert",
+   "cookies",
+   "bars",
+   "chocolate",
+   "marshmallow",
+   "s'mores"
+  ],
+  "description": "Chewy chocolate chip cookie bars on a graham cracker crust, layered with gooey toasted marshmallows and topped with Hershey's chocolate.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@asipoftexas/video/7705095457734741262",
+   "creator_handle": "@asipoftexas",
+   "creator_name": "Jenn"
+  },
+  "servings": 9,
+  "servings_unit": "bars",
+  "times": {
+   "prep_min": 15,
+   "cook": "25 min bake",
+   "cook_min": 25,
+   "cool": "30 min"
+  },
+  "macros": null,
+  "equipment": [
+   "9x9-inch baking pan",
+   "Parchment paper",
+   "Large mixing bowl",
+   "Whisk",
+   "Spatula",
+   "Cookie scoop"
+  ],
+  "hero_image": "images/smores-cookie-bars-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Cookie dough",
+    "items": [
+     {
+      "id": "butter",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "unsalted butter, melted",
+      "alt": "113 g"
+     },
+     {
+      "id": "brown",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "brown sugar",
+      "alt": "100 g"
+     },
+     {
+      "id": "sugar",
+      "qty": 0.25,
+      "unit": "cup",
+      "name": "granulated sugar",
+      "alt": "50 g"
+     },
+     {
+      "id": "egg",
+      "qty": 1,
+      "unit": "",
+      "name": "large egg"
+     },
+     {
+      "id": "vanilla",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+     },
+     {
+      "id": "flour",
+      "qty": 2,
+      "unit": "cups",
+      "name": "all-purpose flour",
+      "alt": "250 g"
+     },
+     {
+      "id": "soda",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "baking soda"
+     },
+     {
+      "id": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+     },
+     {
+      "id": "chips",
+      "qty": 0.75,
+      "unit": "cup",
+      "name": "chocolate chips",
+      "alt": "130 g"
+     }
+    ]
+   },
+   {
+    "name": "S'mores layers",
+    "items": [
+     {
+      "id": "graham",
+      "qty": null,
+      "unit": "",
+      "name": "graham crackers",
+      "note": "enough to cover the bottom of the pan"
+     },
+     {
+      "id": "mallow",
+      "qty": null,
+      "unit": "",
+      "name": "marshmallows",
+      "note": "enough to cover the dough layer"
+     },
+     {
+      "id": "hershey",
+      "qty": null,
+      "unit": "",
+      "name": "Hershey's chocolate pieces",
+      "note": "for topping"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Preheat the oven to 350°F (175°C). Line a 9x9-inch pan with parchment, leaving overhang on the sides."
+   },
+   {
+    "text": "Whisk the melted butter, brown sugar and granulated sugar until well combined.",
+    "ingredients": [
+     "butter",
+     "brown",
+     "sugar"
+    ],
+    "image": "images/smores-cookie-bars-s2.jpg"
+   },
+   {
+    "text": "Add the egg and vanilla and whisk until smooth.",
+    "ingredients": [
+     "egg",
+     "vanilla"
+    ],
+    "image": "images/smores-cookie-bars-s3.jpg"
+   },
+   {
+    "text": "Add the flour, baking soda and salt. Fold with a spatula just until a dough forms — don't overmix.",
+    "ingredients": [
+     "flour",
+     "soda",
+     "salt"
+    ],
+    "image": "images/smores-cookie-bars-s4.jpg"
+   },
+   {
+    "text": "Fold in the chocolate chips until evenly distributed.",
+    "ingredients": [
+     "chips"
+    ],
+    "image": "images/smores-cookie-bars-s5.jpg"
+   },
+   {
+    "text": "Lay graham crackers in a single layer across the bottom of the pan, breaking them to fit.",
+    "ingredients": [
+     "graham"
+    ],
+    "image": "images/smores-cookie-bars-s6.jpg"
+   },
+   {
+    "text": "Spread about two-thirds of the cookie dough evenly over the graham crackers.",
+    "image": "images/smores-cookie-bars-s7.jpg"
+   },
+   {
+    "text": "Arrange marshmallows in an even layer over the dough.",
+    "ingredients": [
+     "mallow"
+    ],
+    "image": "images/smores-cookie-bars-s8.jpg"
+   },
+   {
+    "text": "Drop small pieces of the remaining dough over the marshmallows — it's fine if some peek through."
+   },
+   {
+    "text": "Bake about 25 minutes, until the cookie is lightly golden and mostly set.",
+    "timer_min": 25,
+    "image": "images/smores-cookie-bars-s10.jpg"
+   },
+   {
+    "text": "Right out of the oven, scatter the Hershey's pieces over the top and press them gently into the warm bars.",
+    "ingredients": [
+     "hershey"
+    ],
+    "image": "images/smores-cookie-bars-s11.jpg"
+   },
+   {
+    "text": "Cool in the pan at least 30 minutes (completely for cleaner cuts), then lift out and slice.",
+    "timer_min": 30
+   }
+  ],
+  "storage": "Airtight at room temperature up to 3 days, or refrigerated up to 5 days. Freeze individually wrapped bars in a freezer bag up to 3 months.",
+  "notes": "Full recipe from the creator's blog: https://asipoftexas.com/easy-smores-cookie-bars/ . Pressing the chocolate on right after baking helps it melt in.",
+  "estimates": {
+   "servings": "Not stated; 9 bars assumed for a 9x9 pan.",
+   "prep_min": "Prep time estimated.",
+   "metric": "Metric conversions are approximate.",
+   "toppings": "Graham crackers, marshmallows and Hershey's amounts aren't given — use enough to cover each layer, per the blog."
+  }
+ },
+ {
   "title": "Steak & Cowboy Butter",
   "slug": "steak-with-cowboy-butter",
   "category": "Mains",
