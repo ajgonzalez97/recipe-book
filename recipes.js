@@ -4606,6 +4606,302 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Korean Galbi Rice Bowl",
+  "slug": "korean-galbi-rice-bowl",
+  "category": "Mains",
+  "tags": [
+   "beef",
+   "korean",
+   "rice",
+   "bowl",
+   "galbi",
+   "weeknight"
+  ],
+  "description": "Sweet-savory galbi beef over rice, topped with fried eggs and a fresh spicy green onion sesame sauce.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@rionsfood/video/7700641355449617677",
+   "creator_handle": "@rionsfood",
+   "creator_name": "rionsfood"
+  },
+  "servings": 1,
+  "servings_unit": "large bowl",
+  "times": {
+   "prep_min": 15,
+   "cook": "15 min",
+   "cook_min": 15,
+   "rest_min": 30
+  },
+  "macros": null,
+  "equipment": [
+   "Mixing bowl",
+   "Zip-top bag (optional, for marinating)",
+   "Knife and cutting board",
+   "Large skillet",
+   "Tongs",
+   "Small clear glass bowl",
+   "Spoon"
+  ],
+  "hero_image": "images/korean-galbi-rice-bowl-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Galbi marinade",
+    "items": [
+     {
+      "id": "beef",
+      "qty": 1,
+      "unit": "lb",
+      "name": "beef short ribs or thinly sliced steak",
+      "alt": "454 g",
+      "note": "Video shows 2 boneless, flat, well-marbled hand-sized pieces"
+     },
+     {
+      "id": "soy",
+      "qty": 3,
+      "unit": "Tbsp",
+      "name": "soy sauce",
+      "alt": "45 ml"
+     },
+     {
+      "id": "brown-sugar",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "brown sugar",
+      "alt": "25 g"
+     },
+     {
+      "id": "mirin",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "mirin",
+      "alt": "15 ml"
+     },
+     {
+      "id": "m-sesame-oil",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "sesame oil",
+      "alt": "15 ml"
+     },
+     {
+      "id": "apple",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "grated apple or Asian pear",
+      "alt": "15 g"
+     },
+     {
+      "id": "m-garlic",
+      "qty": 3,
+      "unit": "cloves",
+      "name": "garlic, minced"
+     },
+     {
+      "id": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "grated ginger",
+      "alt": "5 g"
+     },
+     {
+      "id": "m-sesame-seeds",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "roasted sesame seeds"
+     },
+     {
+      "id": "m-pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+     },
+     {
+      "id": "m-green-onion",
+      "qty": 2,
+      "unit": "",
+      "name": "green onions, chopped"
+     },
+     {
+      "id": "sear-oil",
+      "qty": null,
+      "unit": "",
+      "name": "neutral oil, for searing (estimated)",
+      "note": "Type and amount not labeled; video shows a thin layer of clear oil in the skillet"
+     }
+    ]
+   },
+   {
+    "name": "Green onion sesame sauce",
+    "items": [
+     {
+      "id": "s-green-onion",
+      "qty": 4,
+      "unit": "",
+      "name": "green onions, sliced into thin rounds",
+      "note": "Video shows thin rounds; caption said finely chopped"
+     },
+     {
+      "id": "s-sesame-oil",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "sesame oil",
+      "alt": "15 ml"
+     },
+     {
+      "id": "lemon",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "lemon juice",
+      "alt": "15 ml",
+      "note": "Video squeezes a fresh lemon half"
+     },
+     {
+      "id": "s-garlic",
+      "qty": 1,
+      "unit": "clove",
+      "name": "garlic, minced"
+     },
+     {
+      "id": "s-sesame-seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "roasted sesame seeds"
+     },
+     {
+      "id": "gochugaru",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "gochugaru"
+     },
+     {
+      "id": "s-salt",
+      "qty": null,
+      "unit": "",
+      "name": "salt, to taste"
+     },
+     {
+      "id": "s-msg",
+      "qty": null,
+      "unit": "",
+      "name": "MSG, to taste"
+     },
+     {
+      "id": "s-pepper",
+      "qty": null,
+      "unit": "",
+      "name": "black pepper, to taste"
+     }
+    ]
+   },
+   {
+    "name": "To serve (amounts estimated)",
+    "items": [
+     {
+      "id": "rice",
+      "qty": 1.5,
+      "unit": "cups",
+      "name": "cooked white rice (estimated)",
+      "alt": "about 280 g",
+      "note": "About 1–1½ cups as plated in one medium white bowl"
+     },
+     {
+      "id": "eggs",
+      "qty": 2,
+      "unit": "",
+      "name": "eggs, fried sunny-side up",
+      "note": "Caption intro says 2 fried eggs; both go on the single bowl"
+     },
+     {
+      "id": "garnish-sesame",
+      "qty": null,
+      "unit": "",
+      "name": "roasted sesame seeds, extra sprinkle (estimated)"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Mix the soy sauce, brown sugar, mirin, sesame oil, grated apple or Asian pear, minced garlic, grated ginger, roasted sesame seeds, black pepper, and chopped green onions. Add the beef and marinate at least 30 minutes (a sealed zip-top bag works well — the video shows the beef already marinating in one).",
+    "ingredients": [
+     "beef",
+     "soy",
+     "brown-sugar",
+     "mirin",
+     "m-sesame-oil",
+     "apple",
+     "m-garlic",
+     "ginger",
+     "m-sesame-seeds",
+     "m-pepper",
+     "m-green-onion"
+    ],
+    "timer_min": 30,
+    "image": "images/korean-galbi-rice-bowl-s1.jpg"
+   },
+   {
+    "text": "Slice the green onions into thin rounds. In a small clear glass bowl, mix them with sesame oil, lemon juice (squeezed from a fresh lemon half), minced garlic, roasted sesame seeds, gochugaru, and salt, MSG, and black pepper to taste. Mix into a thick, chunky, relish-like paste. Adjust salt, MSG, and lemon juice, then let sit 5–10 minutes before serving.",
+    "ingredients": [
+     "s-green-onion",
+     "s-sesame-oil",
+     "lemon",
+     "s-garlic",
+     "s-sesame-seeds",
+     "gochugaru",
+     "s-salt",
+     "s-msg",
+     "s-pepper"
+    ],
+    "timer_min": 5,
+    "image": "images/korean-galbi-rice-bowl-s2.jpg"
+   },
+   {
+    "text": "Heat a thin layer of neutral oil in a large skillet over high heat. Add the two marinated pieces of beef without crowding the pan. Sear, flipping once, until deeply caramelized with sesame seeds stuck to the meat.",
+    "ingredients": [
+     "beef",
+     "sear-oil"
+    ],
+    "image": "images/korean-galbi-rice-bowl-s3.jpg"
+   },
+   {
+    "text": "Move the seared beef to a cutting board and slice into strips. The video shows a pink, medium-rare center when sliced.",
+    "ingredients": [
+     "beef"
+    ],
+    "image": "images/korean-galbi-rice-bowl-s4.jpg"
+   },
+   {
+    "text": "In a dark skillet, fry 2 eggs sunny-side up until the whites are set and the yolks are still runny; do not flip.",
+    "ingredients": [
+     "eggs"
+    ],
+    "image": "images/korean-galbi-rice-bowl-s5.jpg"
+   },
+   {
+    "text": "Mound the cooked white rice in a medium white bowl. Top with the sliced galbi, then the two sunny-side-up eggs. Spoon over the green onion sesame sauce and finish with an extra sprinkle of roasted sesame seeds.",
+    "ingredients": [
+     "rice",
+     "beef",
+     "eggs",
+     "s-green-onion",
+     "garnish-sesame"
+    ],
+    "image": "images/korean-galbi-rice-bowl-s6.jpg"
+   }
+  ],
+  "storage": "Refrigerate leftovers promptly and use within 3–4 days; store fried eggs and rice separately from the beef when possible, and reheat gently. General food-safety guidance, not stated by the creator.",
+  "notes": "Caption recipe supplemented by verified video details: plated as one large bowl with both beef pieces and both sunny-side-up eggs; green onions for the sauce sliced into thin rounds; lemon squeezed from a fresh half; beef seared in a thin layer of clear oil then sliced with a pink medium-rare center. Marinade mixing is not shown — only the sealed zip-top bag. No creator blog found for this recipe. Prep/cook times, rice amount, sear oil, extra sesame garnish, and servings count are estimates.",
+  "estimates": {
+   "servings": "Caption did not state a count. Plated as 1 large bowl (1 lb beef + 2 eggs) — a hearty single serving as shown.",
+   "times": "Prep (~15 min) and cook (~15 min) are not stated; rest_min 30 is the stated marinade. Estimated.",
+   "rice": "About 1–1½ cups cooked white rice per bowl as plated; estimated.",
+   "oil": "Sear oil type and amount are not labeled; use a thin layer of neutral oil.",
+   "garnish": "Extra roasted sesame seeds on top are shown but not measured — a pinch / sprinkle.",
+   "metric": "Metric conversions are approximate.",
+   "sauce_rest": "Sauce sit of 5–10 minutes is from the caption; step timer uses 5 min."
+  }
+ },
+ {
   "title": "Korean Rosé Chicken Parmesan Rice Bowl",
   "slug": "korean-rose-chicken-parmesan-rice-bowl",
   "category": "Mains",
