@@ -4606,6 +4606,383 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Korean Rosé Chicken Parmesan Rice Bowl",
+  "slug": "korean-rose-chicken-parmesan-rice-bowl",
+  "category": "Mains",
+  "tags": [
+   "chicken",
+   "korean",
+   "rice",
+   "bowl",
+   "fried-chicken",
+   "weeknight"
+  ],
+  "description": "Crispy herb-marinated chicken with spicy Korean rosé sauce and melted cheese, served over creamy buttery rosé rice.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@rionsfood/video/7702566397913632013",
+   "creator_handle": "@rionsfood",
+   "creator_name": "rionsfood"
+  },
+  "servings": 2,
+  "servings_unit": "bowls",
+  "times": {
+   "prep_min": 20,
+   "cook": "25 min",
+   "cook_min": 25,
+   "rest_min": 30
+  },
+  "macros": null,
+  "equipment": [
+   "Mixing bowl",
+   "Glass dish (for flour)",
+   "2 small metal trays (egg wash and panko)",
+   "Deep pot for frying",
+   "Tongs",
+   "Non-stick skillet",
+   "Small metal sheet pan",
+   "Knife and cutting board"
+  ],
+  "hero_image": "images/korean-rose-chicken-parmesan-rice-bowl-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Chicken marinade",
+    "items": [
+     {
+      "id": "chicken",
+      "qty": 2,
+      "unit": "",
+      "name": "chicken breasts"
+     },
+     {
+      "id": "m-salt",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "salt"
+     },
+     {
+      "id": "m-pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+     },
+     {
+      "id": "garlic",
+      "qty": 2,
+      "unit": "cloves",
+      "name": "garlic, minced"
+     },
+     {
+      "id": "onion-powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+     },
+     {
+      "id": "m-parsley",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "dried parsley"
+     },
+     {
+      "id": "oregano",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "oregano"
+     },
+     {
+      "id": "thyme",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "thyme"
+     },
+     {
+      "id": "m-sake",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "sake",
+      "alt": "15 ml"
+     },
+     {
+      "id": "lemon",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "lemon juice",
+      "alt": "5 ml"
+     },
+     {
+      "id": "stock-paste",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "chicken stock paste, optional"
+     }
+    ]
+   },
+   {
+    "name": "Chicken breading",
+    "items": [
+     {
+      "id": "flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "all-purpose flour",
+      "alt": "60 g"
+     },
+     {
+      "id": "b-salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+     },
+     {
+      "id": "eggs",
+      "qty": 2,
+      "unit": "",
+      "name": "eggs"
+     },
+     {
+      "id": "milk",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "milk or cream",
+      "alt": "30 ml"
+     },
+     {
+      "id": "panko",
+      "qty": 1.5,
+      "unit": "cups",
+      "name": "Japanese or Korean soft panko",
+      "alt": "90 g"
+     },
+     {
+      "id": "oil",
+      "qty": null,
+      "unit": "",
+      "name": "neutral oil, for deep-frying (enough to fully submerge the chicken; estimated)",
+      "note": "Type and amount not stated; use enough oil to deep-fry so the chicken is completely covered"
+     }
+    ]
+   },
+   {
+    "name": "Korean rosé sauce",
+    "items": [
+     {
+      "id": "butter",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "butter",
+      "alt": "28 g"
+     },
+     {
+      "id": "onion",
+      "qty": 0.5,
+      "unit": "",
+      "name": "onion, finely diced"
+     },
+     {
+      "id": "gochugaru",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "gochugaru"
+     },
+     {
+      "id": "gochujang",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "gochujang",
+      "alt": "15 g"
+     },
+     {
+      "id": "s-parsley",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "dried parsley"
+     },
+     {
+      "id": "s-pepper",
+      "qty": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+     },
+     {
+      "id": "msg",
+      "qty": 0.25,
+      "unit": "tsp",
+      "name": "MSG"
+     },
+     {
+      "id": "s-salt",
+      "qty": null,
+      "unit": "",
+      "name": "salt, to taste"
+     },
+     {
+      "id": "s-sake",
+      "qty": 2,
+      "unit": "Tbsp",
+      "name": "sake",
+      "alt": "30 ml"
+     },
+     {
+      "id": "cream",
+      "qty": 1,
+      "unit": "cup",
+      "name": "heavy cream",
+      "alt": "240 ml"
+     }
+    ]
+   },
+   {
+    "name": "Creamy rosé rice",
+    "items": [
+     {
+      "id": "rice",
+      "qty": 2,
+      "unit": "cups",
+      "name": "cooked rice",
+      "alt": "about 370 g"
+     },
+     {
+      "id": "rice-butter",
+      "qty": 1,
+      "unit": "Tbsp",
+      "name": "butter, optional",
+      "alt": "14 g",
+      "note": "optional, for extra richness"
+     }
+    ]
+   },
+   {
+    "name": "Melted cheese topping",
+    "items": [
+     {
+      "id": "mozz",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "shredded mozzarella",
+      "alt": "56 g"
+     },
+     {
+      "id": "parm",
+      "qty": 0.25,
+      "unit": "cup",
+      "name": "grated Parmigiano Reggiano",
+      "alt": "25 g"
+     },
+     {
+      "id": "garnish-parsley",
+      "qty": null,
+      "unit": "",
+      "name": "dried parsley, to finish (optional)"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Mix the chicken with salt, black pepper, minced garlic, onion powder, dried parsley, oregano, thyme, sake, lemon juice, and optional chicken stock paste. Marinate at least 30 minutes.",
+    "ingredients": [
+     "chicken",
+     "m-salt",
+     "m-pepper",
+     "garlic",
+     "onion-powder",
+     "m-parsley",
+     "oregano",
+     "thyme",
+     "m-sake",
+     "lemon",
+     "stock-paste"
+    ],
+    "timer_min": 30,
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s1.jpg"
+   },
+   {
+    "text": "Season the flour with salt in a glass dish. Whisk the eggs with milk or cream in a small metal tray. Put the soft panko in another metal tray. Coat each breast in flour, dip in the egg wash, then press firmly into the panko so it is fully covered. (The video shows one breast breaded; repeat for both.)",
+    "ingredients": [
+     "flour",
+     "b-salt",
+     "eggs",
+     "milk",
+     "panko",
+     "chicken"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s2.jpg"
+   },
+   {
+    "text": "Heat enough neutral oil in a deep pot to fully submerge the chicken. Deep-fry until deep golden brown and cooked through, then lift out with tongs and drain.",
+    "ingredients": [
+     "oil",
+     "chicken"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s3.jpg"
+   },
+   {
+    "text": "On a cutting board, slice each fried breast horizontally into thick strips.",
+    "ingredients": [
+     "chicken"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s4.jpg"
+   },
+   {
+    "text": "In a non-stick skillet, melt the butter. Add the finely diced onion and cook until softened and caramelized. Stir in gochugaru, dried parsley, black pepper, MSG, and salt; toast briefly.",
+    "ingredients": [
+     "butter",
+     "onion",
+     "gochugaru",
+     "s-parsley",
+     "s-pepper",
+     "msg",
+     "s-salt"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s5.jpg"
+   },
+   {
+    "text": "Stir in the gochujang until combined. Pour in the sake to deglaze, then add the heavy cream. Simmer, stirring, until thick, creamy, and orange-red. Do not add cheese to the sauce skillet.",
+    "ingredients": [
+     "gochujang",
+     "s-sake",
+     "cream"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s6.jpg"
+   },
+   {
+    "text": "Over low heat, mix leftover rosé sauce with the cooked rice until creamy, like a lazy risotto. Stir in the optional butter for extra richness.",
+    "ingredients": [
+     "rice",
+     "rice-butter"
+    ]
+   },
+   {
+    "text": "Ladle or spread some hot rosé sauce into a small metal sheet pan. Sprinkle mozzarella and Parmigiano heavily over the sauce. Warm the pan on the stovetop over low heat until the cheese melts into a blanket.",
+    "ingredients": [
+     "mozz",
+     "parm"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s8.jpg"
+   },
+   {
+    "text": "Spoon creamy rosé rice into shallow bowls and top with the sliced fried chicken. Slide the melted cheese-and-sauce blanket from the metal pan directly over the chicken so it stays crispy underneath. Finish with a pinch of dried parsley if desired.",
+    "ingredients": [
+     "rice",
+     "chicken",
+     "mozz",
+     "parm",
+     "garnish-parsley"
+    ],
+    "image": "images/korean-rose-chicken-parmesan-rice-bowl-s9.jpg"
+   }
+  ],
+  "storage": "Refrigerate leftovers promptly and use within 3–4 days; keep the fried chicken separate from the rice and sauce so it stays crisper when reheating. General food-safety guidance, not stated by the creator.",
+  "notes": "Caption recipe supplemented by verified video details: deep-frying in a pot (oil fully covers the chicken), finely diced onion (not sliced), sauce order of gochujang then sake then cream, and sliding the melted cheese blanket from a metal pan onto sliced chicken right before serving. Only one breast is breaded and fried on camera; the recipe still makes 2 bowls. No creator blog found for this recipe. Prep/cook times and frying oil are estimates.",
+  "estimates": {
+   "times": "Prep (~20 min) and cook (~25 min) are not stated; rest_min 30 is the stated marinade. Estimated.",
+   "metric": "Metric conversions are approximate.",
+   "oil": "Frying oil type and amount are not stated; use enough neutral oil to deep-fry and fully submerge the chicken.",
+   "onion": "Caption says thinly sliced; video shows finely diced — recipe follows the video."
+  }
+ },
+ {
   "title": "Molasses Smoked Pork Belly Burnt Ends",
   "slug": "molasses-pork-belly-burnt-ends",
   "category": "Mains",
