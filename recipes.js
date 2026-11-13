@@ -2991,6 +2991,262 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Frosted Chocolate Oreo Protein Loaf",
+  "slug": "frosted-chocolate-oreo-protein-loaf",
+  "category": "Desserts",
+  "tags": [
+   "chocolate",
+   "high-protein",
+   "low-calorie",
+   "loaf",
+   "oreo",
+   "meal-prep"
+  ],
+  "description": "Low-calorie, high-protein chocolate loaf with a Greek yogurt cream cheese frosting and crushed Oreo on top.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@christopherkaiyu/video/7707332849464102174",
+   "creator_handle": "@christopherkaiyu",
+   "creator_name": "christopherkaiyu"
+  },
+  "servings": 9,
+  "servings_unit": "slices",
+  "times": {
+   "prep_min": 15,
+   "cook": "40–50 min bake (estimated)",
+   "cook_min": 45,
+   "rest_min": 60
+  },
+  "macros": {
+   "per": "slice",
+   "calories": 138,
+   "protein_g": 15,
+   "carbs_g": 14,
+   "fat_g": 2.5
+  },
+  "equipment": [
+   "9x5-inch loaf pan (estimated)",
+   "Parchment paper (estimated)",
+   "Mixing bowls",
+   "Whisk or spatula",
+   "Toothpick (for doneness, estimated)"
+  ],
+  "hero_image": "images/frosted-chocolate-oreo-protein-loaf-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Wet",
+    "items": [
+     {
+      "id": "eggs",
+      "qty": 2,
+      "unit": "",
+      "name": "whole eggs"
+     },
+     {
+      "id": "yogurt",
+      "qty": 340,
+      "unit": "g",
+      "name": "plain nonfat Greek yogurt",
+      "alt": "1½ cups"
+     },
+     {
+      "id": "butter",
+      "qty": 15,
+      "unit": "g",
+      "name": "light butter, melted",
+      "alt": "1 tbsp"
+     },
+     {
+      "id": "almond-milk",
+      "qty": 6,
+      "unit": "tbsp",
+      "name": "unsweetened almond milk",
+      "alt": "75–90 mL",
+      "note": "Caption gives 75–90 mL (5–6 tbsp); start with 5 tbsp and add as needed for batter consistency."
+     }
+    ]
+   },
+   {
+    "name": "Dry",
+    "items": [
+     {
+      "id": "oat-flour",
+      "qty": 70,
+      "unit": "g",
+      "name": "oat flour"
+     },
+     {
+      "id": "ap-flour",
+      "qty": 40,
+      "unit": "g",
+      "name": "all-purpose flour"
+     },
+     {
+      "id": "protein",
+      "qty": 75,
+      "unit": "g",
+      "name": "chocolate protein powder",
+      "alt": "about 2½ scoops",
+      "note": "Creator used Levels protein from Target."
+     },
+     {
+      "id": "cocoa",
+      "qty": 25,
+      "unit": "g",
+      "name": "dark cocoa powder",
+      "alt": "5 tbsp"
+     },
+     {
+      "id": "sweetener",
+      "qty": 120,
+      "unit": "g",
+      "name": "granular zero-calorie sweetener",
+      "alt": "½ cup + 2 tbsp"
+     },
+     {
+      "id": "baking-powder",
+      "qty": 3,
+      "unit": "g",
+      "name": "baking powder",
+      "alt": "1½ tsp"
+     },
+     {
+      "id": "baking-soda",
+      "qty": 1,
+      "unit": "g",
+      "name": "baking soda",
+      "alt": "½ tsp"
+     },
+     {
+      "id": "salt",
+      "qty": 1,
+      "unit": "g",
+      "name": "salt",
+      "alt": "½ tsp"
+     },
+     {
+      "id": "xanthan",
+      "qty": 1,
+      "unit": "g",
+      "name": "xanthan gum, optional",
+      "alt": "½ tsp"
+     }
+    ]
+   },
+   {
+    "name": "Frosting",
+    "items": [
+     {
+      "id": "f-yogurt",
+      "qty": 113,
+      "unit": "g",
+      "name": "nonfat Greek yogurt",
+      "alt": "½ cup"
+     },
+     {
+      "id": "cream-cheese",
+      "qty": 24,
+      "unit": "g",
+      "name": "nonfat cream cheese",
+      "alt": "2 tbsp"
+     },
+     {
+      "id": "f-sweetener",
+      "qty": 60,
+      "unit": "g",
+      "name": "powdered zero-calorie sweetener, or more to taste",
+      "alt": "¼ cup + 1 tbsp"
+     },
+     {
+      "id": "f-milk",
+      "qty": null,
+      "unit": "",
+      "name": "unsweetened almond milk, small splash if needed"
+     }
+    ]
+   },
+   {
+    "name": "Topping",
+    "items": [
+     {
+      "id": "oreo",
+      "qty": 1,
+      "unit": "",
+      "name": "Oreo cookie, crushed"
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Preheat the oven to 350°F (175°C). Line a 9x5-inch loaf pan with parchment (pan size and lining are estimated — the video does not show the pan)."
+   },
+   {
+    "text": "Mix the wet ingredients: the eggs, plain nonfat Greek yogurt, melted light butter, and unsweetened almond milk.",
+    "ingredients": [
+     "eggs",
+     "yogurt",
+     "butter",
+     "almond-milk"
+    ]
+   },
+   {
+    "text": "Fold in the dry ingredients: oat flour, all-purpose flour, chocolate protein powder, dark cocoa powder, granular zero-calorie sweetener, baking powder, baking soda, salt, and the optional xanthan gum. Mix just until combined. (Wet-then-dry mixing is estimated — the video shows no prep.)",
+    "ingredients": [
+     "oat-flour",
+     "ap-flour",
+     "protein",
+     "cocoa",
+     "sweetener",
+     "baking-powder",
+     "baking-soda",
+     "salt",
+     "xanthan"
+    ]
+   },
+   {
+    "text": "Spread the batter in the prepared pan and bake at 350°F about 40–50 minutes, until a toothpick inserted in the center comes out clean. Bake time is estimated for a dense protein loaf; the caption and video do not state it.",
+    "timer_min": 45
+   },
+   {
+    "text": "While the loaf bakes, mix the frosting: nonfat Greek yogurt, nonfat cream cheese, and powdered zero-calorie sweetener. Add more sweetener as desired for extra sweetness or thickness, and a small splash of unsweetened almond milk if needed. Refrigerate the frosting while the loaf cools.",
+    "ingredients": [
+     "f-yogurt",
+     "cream-cheese",
+     "f-sweetener",
+     "f-milk"
+    ]
+   },
+   {
+    "text": "Let the loaf cool completely before frosting — about 60 minutes, estimated; cooling time was not stated.",
+    "timer_min": 60
+   },
+   {
+    "text": "Spread the frosting generously over the top and finish with the crushed Oreo.",
+    "ingredients": [
+     "f-yogurt",
+     "oreo"
+    ]
+   },
+   {
+    "text": "Slice into 9 thick slices, store in the fridge, and enjoy."
+   }
+  ],
+  "storage": "Store in the fridge, as the creator states. How long to keep it was not stated; a cautious general guideline is about 3–4 days, refrigerated in an airtight container.",
+  "notes": "The TikTok video shows no prep — no mixing, pan, baking, frosting, or slicing. It is only a hook of the finished frosted slices, the creator eating one, and a clip of buying Levels protein powder at Target. There is no on-screen text and no bake time. Method details beyond the caption (9x5 loaf pan lined with parchment, mix wet then fold in dry, 40–50 min bake with a toothpick test, and complete cooling before frosting) are estimates. Macros are the creator's per-slice estimates; carbs_g is net carbs as stated (14g). The caption says 9 slices; in the video the creator says 'not one, not two, but eight of these frosted Oreo loaves' while stacking 8 slices — servings follow the caption (9). No creator blog found for this recipe.",
+  "estimates": {
+   "prep_min": "Prep time (~15 min) is estimated; the video shows no prep.",
+   "bake": "Bake time is not stated. Estimated 40–50 minutes at 350°F for a dense protein loaf in a standard 9x5 pan, until a toothpick comes out clean. cook_min 45 is the midpoint of that range.",
+   "pan": "Pan size (standard 9x5-inch loaf pan, parchment-lined) is estimated; the pan is not shown.",
+   "method": "Mix wet ingredients first, then fold in dry, is estimated standard method. The caption only says 'mix wet and dry ingredients.'",
+   "rest_min": "Complete cooling before frosting is stated; the ~60 min rest is estimated.",
+   "storage": "Fridge storage is stated; duration is not. 3–4 days is cautious general guidance, not from the creator.",
+   "macros": "138 cal, 14g net carbs, 2.5g fat, 15g protein per slice are the creator's estimates (labeled estimated in the caption). carbs_g records the stated net carbs.",
+   "servings": "Caption says slice into 9 thick slices (used here). The video stacks 8 slices while the creator says 'eight of these frosted Oreo loaves.'",
+   "almond_milk": "Wet almond milk uses the caption range 75–90 mL (5–6 tbsp); the listed 6 tbsp is the top of that range, with a note to start lower if needed."
+  }
+ },
+ {
   "title": "Garlic Parmesan Chicken Skewers",
   "slug": "garlic-parmesan-chicken-skewers",
   "category": "Mains",
