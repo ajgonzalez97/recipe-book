@@ -1649,6 +1649,273 @@ window.RECIPES = [
   }
  },
  {
+  "title": "Chocolate Swirl Protein Banana Bread",
+  "slug": "chocolate-swirl-protein-banana-bread",
+  "category": "Desserts",
+  "tags": [
+   "banana-bread",
+   "chocolate",
+   "high-protein",
+   "low-calorie",
+   "loaf",
+   "meal-prep"
+  ],
+  "description": "Low-calorie, high-protein banana bread swirled with a fudgy chocolate batter.",
+  "source": {
+   "platform": "TikTok",
+   "url": "https://www.tiktok.com/@christopherkaiyu/video/7707124585493302558",
+   "creator_handle": "@christopherkaiyu",
+   "creator_name": "christopherkaiyu"
+  },
+  "servings": 8,
+  "servings_unit": "slices",
+  "times": {
+   "prep_min": 20,
+   "cook": "45–55 min bake (estimated)",
+   "cook_min": 50,
+   "rest_min": 60
+  },
+  "macros": {
+   "per": "slice",
+   "calories": 207,
+   "protein_g": 20,
+   "carbs_g": 25,
+   "fat_g": 3.8
+  },
+  "equipment": [
+   "9x5-inch loaf pan (estimated)",
+   "Parchment paper (estimated)",
+   "Mixing bowls",
+   "Whisk or spatula",
+   "Toothpick (for doneness, estimated)"
+  ],
+  "hero_image": "images/chocolate-swirl-protein-banana-bread-hero.jpg",
+  "ingredient_groups": [
+   {
+    "name": "Banana batter",
+    "items": [
+     {
+      "id": "bananas",
+      "qty": 3,
+      "unit": "",
+      "name": "medium bananas"
+     },
+     {
+      "id": "b-yogurt",
+      "qty": 170,
+      "unit": "g",
+      "name": "0% Greek yogurt",
+      "alt": "¾ cup"
+     },
+     {
+      "id": "almond-milk",
+      "qty": 120,
+      "unit": "mL",
+      "name": "unsweetened almond milk",
+      "alt": "½ cup"
+     },
+     {
+      "id": "b-egg-whites",
+      "qty": 60,
+      "unit": "mL",
+      "name": "egg whites",
+      "alt": "¼ cup"
+     },
+     {
+      "id": "oat-flour",
+      "qty": 120,
+      "unit": "g",
+      "name": "oat flour"
+     },
+     {
+      "id": "casein",
+      "qty": 60,
+      "unit": "g",
+      "name": "casein protein powder",
+      "alt": "about 2 scoops"
+     },
+     {
+      "id": "whey",
+      "qty": 30,
+      "unit": "g",
+      "name": "whey protein powder",
+      "alt": "about 1 scoop"
+     }
+    ]
+   },
+   {
+    "name": "Chocolate batter",
+    "items": [
+     {
+      "id": "egg",
+      "qty": 1,
+      "unit": "",
+      "name": "medium egg"
+     },
+     {
+      "id": "c-egg-whites",
+      "qty": 30,
+      "unit": "g",
+      "name": "egg whites",
+      "alt": "2 tbsp"
+     },
+     {
+      "id": "c-yogurt",
+      "qty": 85,
+      "unit": "g",
+      "name": "0% Greek yogurt",
+      "alt": "⅜ cup"
+     },
+     {
+      "id": "coconut-oil",
+      "qty": 7.5,
+      "unit": "g",
+      "name": "coconut oil, melted",
+      "alt": "½ tbsp"
+     },
+     {
+      "id": "vanilla",
+      "qty": 2.5,
+      "unit": "mL",
+      "name": "vanilla extract, optional",
+      "alt": "½ tsp"
+     },
+     {
+      "id": "sweetener",
+      "qty": 95,
+      "unit": "g",
+      "name": "granulated 1:1 sugar substitute",
+      "note": "Caption gives 90–100g."
+     },
+     {
+      "id": "ap-flour",
+      "qty": 17,
+      "unit": "g",
+      "name": "all-purpose flour"
+     },
+     {
+      "id": "cocoa",
+      "qty": 22,
+      "unit": "g",
+      "name": "cocoa powder"
+     },
+     {
+      "id": "protein",
+      "qty": 25,
+      "unit": "g",
+      "name": "chocolate protein powder",
+      "note": "Creator used Levels protein from Target."
+     },
+     {
+      "id": "baking-powder",
+      "qty": 1.5,
+      "unit": "g",
+      "name": "baking powder",
+      "alt": "about ⅓ tsp"
+     },
+     {
+      "id": "salt",
+      "qty": null,
+      "unit": "",
+      "name": "salt, pinch"
+     }
+    ]
+   },
+   {
+    "name": "Optional topping and serving",
+    "items": [
+     {
+      "id": "chocolate-chunks",
+      "qty": null,
+      "unit": "",
+      "name": "chocolate chunks or chips, optional",
+      "alt": "a handful (estimated)",
+      "note": "Seen in the video on top and throughout the slices; not in the caption. Amount not stated."
+     },
+     {
+      "id": "butter",
+      "qty": 1,
+      "unit": "",
+      "name": "pat of butter, for serving, optional",
+      "note": "Seen in the video; not in the caption."
+     }
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "text": "Preheat the oven to 350°F (175°C). Line a 9x5-inch loaf pan with parchment (pan size and lining are estimated — the video does not show the pan)."
+   },
+   {
+    "text": "Mash the bananas, then mix in the 0% Greek yogurt, unsweetened almond milk, and egg whites.",
+    "ingredients": [
+     "bananas",
+     "b-yogurt",
+     "almond-milk",
+     "b-egg-whites"
+    ]
+   },
+   {
+    "text": "Mix in the oat flour, casein protein powder, and whey protein powder.",
+    "ingredients": [
+     "oat-flour",
+     "casein",
+     "whey"
+    ]
+   },
+   {
+    "text": "In a separate bowl, mix all the chocolate batter ingredients until smooth: the medium egg, egg whites, 0% Greek yogurt, melted coconut oil, optional vanilla extract, granulated 1:1 sugar substitute, all-purpose flour, cocoa powder, chocolate protein powder, baking powder, and a pinch of salt.",
+    "ingredients": [
+     "egg",
+     "c-egg-whites",
+     "c-yogurt",
+     "coconut-oil",
+     "vanilla",
+     "sweetener",
+     "ap-flour",
+     "cocoa",
+     "protein",
+     "baking-powder",
+     "salt"
+    ]
+   },
+   {
+    "text": "Add the banana batter to the lined loaf pan, layering and swirling the chocolate batter throughout. If using, scatter the optional chocolate chunks or chips over and through the batter as seen in the video (amount not stated).",
+    "ingredients": [
+     "chocolate-chunks"
+    ]
+   },
+   {
+    "text": "Bake at 350°F about 45–55 minutes, until the center is set and a toothpick inserted in the center comes out mostly clean. Bake time is estimated for a dense protein loaf; the caption and video do not state it.",
+    "timer_min": 50
+   },
+   {
+    "text": "Cool before slicing into 8 thick pieces — about 60 minutes, estimated; cooling time was not stated.",
+    "timer_min": 60
+   },
+   {
+    "text": "Serve as is, or with an optional pat of butter on a slice, as shown in the video.",
+    "ingredients": [
+     "butter"
+    ]
+   }
+  ],
+  "storage": "How to store it was not stated by the creator. A cautious general guideline is about 3–4 days, refrigerated in an airtight container.",
+  "notes": "The TikTok video shows no prep — no mixing, pan, swirling, baking, or slicing. It is only a hook of finished slices stacked on a white plate, a close-up of a gooey slice with a pat of butter, the creator eating it, and a clip of buying protein powder at Target. There is no on-screen text and no bake time. The voiceover calls them “brownie banana breads” and says “almost eight” fit in the calories of one bakery loaf. Finished slices show large chocolate chunks or chips on top and throughout; they are not in the caption and are listed as an optional topping (amount not stated). A pat of butter for serving is also shown in the video and is optional. Method details beyond the caption (9x5 loaf pan lined with parchment, and a 45–55 min bake with a toothpick test) are estimates. Macros are the creator’s per-slice estimates. Servings follow the caption (8 thick slices). No creator blog found for this recipe.",
+  "estimates": {
+   "prep_min": "Prep time (~20 min) is estimated; the video shows no prep. Two batters plus swirling is a bit more work than a single-batter loaf.",
+   "bake": "Bake time is not stated. Estimated 45–55 minutes at 350°F for a dense protein loaf in a standard 9x5 pan, until the center is set and a toothpick comes out mostly clean. cook_min 50 is the midpoint of that range.",
+   "pan": "Pan size (standard 9x5-inch loaf pan, parchment-lined) is estimated; the pan is not shown.",
+   "rest_min": "Cooling before slicing is stated; the ~60 min rest is estimated.",
+   "storage": "Storage was not stated by the creator. 3–4 days refrigerated in an airtight container is cautious general guidance, not from the creator.",
+   "macros": "207 cal, 25g carbs, 3.8g fat, 20g protein per slice are the creator’s estimates.",
+   "servings": "Caption says slice into 8 thick pieces (used here). The voiceover says almost eight of these fit in the calories of one bakery loaf.",
+   "sweetener": "Chocolate-batter sugar substitute uses the midpoint of the caption range 90–100g (listed as 95g).",
+   "chocolate_chunks": "Large chocolate chunks or chips appear on top and throughout the finished slices in the video, but are not in the caption. Listed as an optional topping with no stated amount (a handful is estimated).",
+   "butter": "A pat of butter on a slice is shown in the video for serving and is not in the caption; listed as optional."
+  }
+ },
+ {
   "title": "Cream Cheese Chicken",
   "slug": "cream-cheese-chicken",
   "category": "Mains",
